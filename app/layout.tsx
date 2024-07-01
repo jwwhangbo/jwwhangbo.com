@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { poppins } from "@/app/ui/fonts";
 import "./globals.css";
 import Navbar from "@/app/ui/navbar";
 
@@ -8,16 +8,15 @@ export const metadata: Metadata = {
   description: "Jongwook's personal website",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+
+export default function RootLayout({ children, } : Readonly <{ children: React.ReactNode; }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
+    <html className="scroll-smooth" lang="en">
+      <body className={poppins.className}>
         <Navbar />
-        {children}
+        <main>
+          {children}
+        </main>
       </body>
     </html>
   );

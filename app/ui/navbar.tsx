@@ -3,7 +3,7 @@ import { BlogSocialLogo, GithubSocialLogo, JWLogo, LinkedinSocialLogo } from "@/
 export default function Navbar() {
 
     return (
-      <div className="flexbox justify-center fixed top-0 bg-slate-200 w-full h-fit dark:bg-[#1D2228] shadow-lg z-10">
+      <div className="flexbox justify-center fixed top-0 bg-[#ecedee] w-full h-fit dark:bg-[#1D2228] shadow-lg z-10">
         <div
           data-name="content"
           className="max-w-[980px] w-full h-fit mx-auto px-2"
@@ -19,10 +19,18 @@ export default function Navbar() {
             <JWLogo />
           </div>
           <ul className="flex space-x-[20px] sm:space-x-[40px] justify-center w-full font-medium">
-            <a href="#about"><li>About</li></a>
-            <a href="#experience"><li>Experience</li></a>
-            <a href="#projects"><li>Projects</li></a>
-            <a href="#contact"><li>Contact</li></a>
+            <a href="#about">
+              <li>About</li>
+            </a>
+            <a href="#experience">
+              <li>Experience</li>
+            </a>
+            <a href="#projects">
+              <li>Projects</li>
+            </a>
+            <a href="#contact">
+              <li>Contact</li>
+            </a>
           </ul>
         </div>
       </div>

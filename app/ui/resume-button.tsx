@@ -1,13 +1,12 @@
 'use client'
 import { createTheme, ThemeProvider } from "@mui/material/styles";
-import { purple } from "@mui/material/colors";
 import { Button } from "@mui/material";
 
 export default function ResumeButton() {
   const theme = createTheme({
     palette: {
       primary: {
-        main: purple[800],
+        main: "#462a70",
       },
       secondary: {
         main: "#f44336",
@@ -21,6 +20,9 @@ export default function ResumeButton() {
         variant="outlined"
         size="large"
         color="primary"
+        onClick={() => {
+          window.open("/jww_resume_v2.1.pdf", "_blank");
+        }}
       >
         Resume
       </Button>

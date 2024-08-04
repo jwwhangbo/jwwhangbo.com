@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { poppins } from "@/app/ui/fonts";
 import "./globals.css";
 import Navbar from "@/app/ui/navbar";
+import Sidelink from "./ui/sidelink";
+import Footer from "./ui/footer";
 
 export const metadata: Metadata = {
   title: "jwwhangbo.github.io",
@@ -14,9 +16,9 @@ export default function RootLayout({ children, } : Readonly <{ children: React.R
     <html className="scroll-smooth" lang="en">
       <body className={poppins.className}>
         <Navbar />
-        <main>
           {children}
-        </main>
+        <Sidelink />
+        <Footer />
       </body>
     </html>
   );

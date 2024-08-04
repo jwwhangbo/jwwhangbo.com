@@ -1,0 +1,32 @@
+[
+  {
+    "company": "Republic of Korea Air Force",
+    "position": "Senior Airman",
+    "start_date": "2020.06",
+    "end_date": "2021.12",
+    "responsibilities": [
+      "Responsible for maintaining and operating ground vehicles",
+      "Training and mentoring of new recruits"
+    ]
+  },
+  {
+    "company": "Naver Corp",
+    "position": "Intern",
+    "start_date": "2022.05",
+    "end_date": "2022.08",
+    "responsibilities": [
+      "Organized and maintained IT assets for the company",
+      "Responsible for initializing and testing security and company specific software on newly acquired IT assets"
+    ]
+  },
+  {
+    "company": "Gachon University",
+    "position": "Research assistant",
+    "start_date": "2023.05",
+    "end_date": "2023.09",
+    "responsibilities": [
+      "Developed and trained deep learning models for segmentation and classification",
+      "Published two peer-reviewed papers on SCIE journals based on the trained models: segmenting sinusitis from CT scans, classifying endometrial cancer from digital pathology slides"
+    ]
+  }  
+]

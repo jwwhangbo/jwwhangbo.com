@@ -1,0 +1,39 @@
+[
+    {
+        "index": 1,
+        "name": "jwwhangbo.github.io",
+        "date": "2024.07",
+        "description": "This website :)",
+        "language": "JavaScript",
+        "framework": "Nextjs"
+    },
+    {
+        "index": 2,
+        "name": "Sonicscore",
+        "date": "2023.10",
+        "description": "A music rating site created for a school project. Backend was written in PHP and features a RESTful API server. Frontend was written in React.",
+        "language": "JavaScript, PHP",
+        "framework": "React",
+        "images": [
+            "/sonicscore_1.jpeg",
+            "/sonicscore_2.jpeg",
+            "/sonicscore_3.jpeg"
+        ]
+    },
+    {
+        "index": 3,
+        "name": "Sonicscore mobile app",
+        "date": "2023.11",
+        "description": "An android app version of the sonicscore website. Recycled the backend server from the website.",
+        "language": "TypeScript, PHP",
+        "framework": "React Native"
+    },
+    {
+        "index": 4,
+        "name": "Laravel Backend Demo",
+        "date": "2023.10",
+        "description": "A demo backend server created using Laravel. Fully functional RESTful API server with authentication and authorization.",
+        "language": "PHP",
+        "framework": "Laravel"
+    }
+]

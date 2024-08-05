@@ -1,5 +1,6 @@
 'use server'
 import fs from 'fs';
+import path from 'path';
 
 const nodemailer = require('nodemailer');
 
@@ -31,15 +32,15 @@ export type Experience = {
 };
 
 function getProjects(): Project[] {
-    const filePath = 'public/projects.json';
+    const filePath = path.join(process.cwd(), "public", "projects.json");
     const fileData = fs.readFileSync(filePath, 'utf-8');
     const projects = JSON.parse(fileData);
     return projects;
 }
 
 function getTimeline(): Experience[] {
-    const filePath = 'public/exper.json';
-    const fileData = fs.readFileSync(filePath, 'utf-8');
+    const filePath = path.join(process.cwd(), "public", "exper.json");
+    const fileData = fs.readFileSync(filePath, "utf-8");
     const timeline = JSON.parse(fileData);
     return timeline;
 }

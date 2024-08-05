@@ -32,14 +32,14 @@ export type Experience = {
 };
 
 function getProjects(): Project[] {
-    const filePath = path.join(process.cwd(), "public", "projects.json");
+    const filePath = path.join(process.cwd(), "projects.json");
     const fileData = fs.readFileSync(filePath, 'utf-8');
     const projects = JSON.parse(fileData);
     return projects;
 }
 
 function getTimeline(): Experience[] {
-    const filePath = path.join(process.cwd(), "public", "exper.json");
+    const filePath = path.join(process.cwd(), "exper.json");
     const fileData = fs.readFileSync(filePath, "utf-8");
     const timeline = JSON.parse(fileData);
     return timeline;

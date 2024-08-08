@@ -6,7 +6,7 @@ import Sidelink from "./ui/sidelink";
 import Footer from "./ui/footer";
 
 export const metadata: Metadata = {
-  title: "jwwhangbo.github.io",
+  title: "jwwhangbo.com",
   description: "Jongwook's personal website",
 };
 

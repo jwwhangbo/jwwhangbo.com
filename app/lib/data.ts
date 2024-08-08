@@ -9,7 +9,7 @@ var transport = nodemailer.createTransport({
   port: 587,
   auth: {
     user: "api",
-    pass: "31a6f07b8271318f09154ca7de8f8609",
+    pass: "38fa32d4a75858e9198c6d990b3a3692",
   },
 });
 
@@ -52,11 +52,11 @@ async function sendMessage(formData : FormData) : Promise<string> {
     console.log(name, email, message);
     
     const info = await transport.sendMail({
-      from: `${name}-${email}`, // sender address
-      to: "jwwhangbo@gmail.com", // list of receivers
-      subject: "message left on website", // Subject line
-      text: message, // plain text body
-      html: `<html>${message}</html>`, // html body
+      from: "mailtrap@demomailtrap.com", // sender address
+      to: "jongwookw@gmail.com", // list of receivers
+      subject: `message left on website`, // Subject line
+      text: `${name}-${email} says, \n ${message}`, // plain text body
+      html: `<html>${name} from ${email} says, <br> ${message}</html>`, // html body
     });
 
     console.log("Message sent: %s", info.messageId);

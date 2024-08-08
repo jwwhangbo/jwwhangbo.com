@@ -7,7 +7,7 @@ export default function Sidelink() {
         <p
           className={`text-gray text-sm ${vt323.className} transform rotate-90 origin-center`}
         >
-          jwwhangbo.github.io
+          jwwhangbo.com
         </p>
       </div>
     </div>

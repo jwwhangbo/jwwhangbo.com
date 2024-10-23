@@ -1,13 +1,23 @@
 [
     {
         "index": 1,
+        "name": "CookGPT(Work in progress)",
+        "description": "AI powered cooking assistant. Utilisizes OpenAI API and elastic search to recommend recipes based on user's skill level, dietary/food preferences, and ingredient availability.",
+        "language": "JavaScript",
+        "framework": "Nextjs",
+        "images": [
+            "cookgpt_1.png"
+        ]
+    },
+    {
+        "index": 2,
         "name": "jwwhangbo.com",
         "description": "This website :)",
         "language": "JavaScript",
         "framework": "Nextjs"
     },
     {
-        "index": 2,
+        "index": 3,
         "name": "Sonicscore",
         "date": "2023.10",
         "description": "A music rating site created for a school project. Backend was written in PHP and features a RESTful API server. Frontend was written in React.",
@@ -20,7 +30,7 @@
         ]
     },
     {
-        "index": 3,
+        "index": 4,
         "name": "Sonicscore mobile app",
         "date": "2023.11",
         "description": "An android app version of the sonicscore website. Recycled the backend server from the website.",
@@ -28,7 +38,7 @@
         "framework": "React Native"
     },
     {
-        "index": 4,
+        "index": 5,
         "name": "Laravel Backend Demo",
         "date": "2023.10",
         "description": "A demo backend server created using Laravel. Fully functional RESTful API server with authentication and authorization.",

@@ -21,7 +21,7 @@ export default function ResumeButton() {
         size="large"
         color="primary"
         onClick={() => {
-          window.open("/jww_resume_v2.1.pdf", "_blank");
+          window.open("/jww_resume.pdf", "_blank");
         }}
       >
         Resume
